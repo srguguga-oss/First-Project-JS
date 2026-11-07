@@ -1,0 +1,36 @@
+.botaoAnima {
+            transition: transform 0.15s;
+        }
+
+        .botaoAnima:active {
+            transform: scale(0.92);
+        }
+
+.botaoArCondicionado {
+    transition: transform 0.15s;
+    }
+    .botaoArCondicionado:active {
+        transform: scale(0.90);
+    }
+
+.imagemRedonda:hover {
+    transform: scale(1.05);
+}
+
+.logo:hover {
+    transform: scale(1.05);
+
+    transition: transform 0.3s ease;
+}
+
+@keyframes deslizar {
+    0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+        }
+}

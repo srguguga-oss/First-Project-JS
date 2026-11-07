@@ -1,0 +1,51 @@
+.grupo-botoes1 {
+    display: flex;
+    gap: 30px;
+}
+
+.grupo-botoes2 {
+    display: flex;
+    gap: 100px;
+}
+
+.btn {
+    background-color: rgb(167, 167, 167);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px 30px;
+    animation: deslizar 0.50s ease-out;
+}
+
+.container-botao1 {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    animation: deslizar 0.50s ease-out;
+}
+
+.btnMaisClaro {
+    background-color: rgb(216, 216, 216);
+    border: 4px dashed rgb(158, 158, 158);
+}
+
+.btn-destaque {
+    border-radius: 30px;
+    letter-spacing: 2px;
+    animation: deslizar 0.50s ease-out;
+}
+
+.btn-seta {
+    background-color: gray;
+    border: 3px solid rgb(53, 53, 53);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: 'Changa One', sans-serif;
+    font-size: 25px;
+    animation: deslizar 0.50s ease-out;
+    cursor: pointer;
+}

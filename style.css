@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(196, 222, 245);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cabecalho {
+    background-color: rgb(52, 69, 84);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    animation: deslizar 0.50s ease-out;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 25px;         
+    padding: 40px 20px;
+}
+
+.caixa-texto {
+    background-color: rgb(61, 116, 160);
+    padding: 20px;
+    max-width: 600px;
+    color: black;
+    font-family: 'Changa One', sans-serif;
+    border-radius: 15px;
+    text-align: center;
+    animation: deslizar 0.50s ease-out;
+}
+
+.caixa-conteudo {
+    background-color: rgb(61, 116, 160);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    height: 600px;
+    width: 1800px;
+    border-radius: 40px;
+    gap: 20px;
+    animation: deslizar 0.50s ease-out;
+}
+
+.imagemRedonda {
+    width: 31%;
+    height: 550px;
+    border-radius: 30px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px black;
+    animation: deslizar 0.50s ease-out;
+    transition: transform 0.3s ease;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+}
