@@ -8,32 +8,46 @@
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="buttons/button.css">
+    <script src="buttons/buttonscontrol.js" defer> </script>
 </head>
 <body>
+
+    <aside class="cabecalhoLateral">
+        <button id="meuBotao1" class="botaoAnima btnLateral1" style="background-color: rgba(218, 218, 218, 0.4)">
+            <span class="textoBtn"> INÍCIO </span>
+        </button>
+
+        <button id="meuBotao2" class="botaoAnima btnLateral2"> 
+            <span class="textoBtn"> SOBRE </span>
+        </button>
+
+        <button id="meuBotao3" class="botaoAnima btnLateral3">
+            <span class="textoBtn"> CONTATO </span>
+        </button>
+    </aside>
 
     <header class="cabecalho">
         <img src="assets/peg.png" alt="Logo PEG" class="logo">
     </header>
 
     <main class="container">
-        <div class="caixa-texto">
-            Na PEG, consertamos geladeiras e ar-condicionado, e fazemos instalação e manutenção com qualidade e agilidade. Entre em contato e solicite seu orçamento.
-        </div>
-        <div class="grupo-botoes1">
-            <button class="btn botaoAnima">Solicitar orçamento</button>
-            <button class="btn botaoAnima">Mais informações</button>
+    
+        <div id="paginaInicio">
+
+            <div class="caixa-conteudo">
+
+            </div>
+
         </div>
 
-        <div class="caixa-conteudo">
-            <img src="assets/arcondicionado1.jpg" alt="Imagem ArCondicionado1" class="imagemRedonda">
-            <img src="assets/arcondicionado2.jpg" alt="Imagem ArCondicionado2" class="imagemRedonda">
-            <img src="assets/arcondicionado3.jpg" alt="Imagem ArCondicionado3" class="imagemRedonda">
-            <button class="botaoAnima btn-seta"> > </button>
+        <div id="paginaSobre" style="display: none;">
+            <h2>Sobre a PEG</h2>
+            <p>Conteúdo da página sobre...</p>
         </div>
 
-        <div class="grupo-botoes2 container-botao1">
-            <button class="btn btnMaisClaro btn-destaque botaoAnima">Instalação</button>
-            <button class="btn btnMaisClaro btn-destaque botaoAnima">Manutenção</button>
+        <div id="paginaContato" style="display: none;">
+            <h2>Contato</h2>
+            <p>Conteúdo da página de contato...</p>
         </div>
 
     </main>

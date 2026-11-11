@@ -13,14 +13,8 @@
         transform: scale(0.90);
     }
 
-.imagemRedonda:hover {
-    transform: scale(1.05);
-}
-
 .logo:hover {
     transform: scale(1.05);
-
-    transition: transform 0.3s ease;
 }
 
 @keyframes deslizar {
@@ -33,4 +27,20 @@
         transform: translateY(0);
         opacity: 1;
         }
+}
+
+@keyframes deslizarX {
+    0% {
+    transform: translateX(-50px);
+    opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+        }
+}
+
+#paginaInicio, #paginaSobre, #paginaContato {
+    transition: opacity 0.4s ease;
 }
